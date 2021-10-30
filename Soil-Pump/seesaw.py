@@ -2,6 +2,7 @@
 
 # MicroPython Port Copyright (c) 2019
 # Mihai Dinculescu
+#Small modification by Mario The Maker for Pico
 
 # CircuitPython Implementation Copyright (c) 2017
 # Dean Miller for Adafruit Industries
