@@ -1,3 +1,6 @@
+#lcdPicoTest.py
+#Written by @Mario The Maker 
+
 from machine import I2C, Pin
 from time import sleep
 from pico_i2c_lcd import I2cLcd
