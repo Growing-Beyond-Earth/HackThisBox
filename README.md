@@ -12,6 +12,8 @@ Bellow are folders with some accessories examples, including modules needed for 
 
 ![IMG_4496](https://user-images.githubusercontent.com/1426877/137814524-72699569-9abe-4a59-abe7-4285aa2033f9.jpeg)
 
+![Pico](https://user-images.githubusercontent.com/1426877/134377016-ab970d6b-3738-4b69-ad7e-c381f620e1c7.png)
+
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
