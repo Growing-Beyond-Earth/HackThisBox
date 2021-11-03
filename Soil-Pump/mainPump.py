@@ -26,8 +26,8 @@
 #           PWM duty cycle
 
 #time values in file are in form [(year, month, day, mysteriousNumber, hour, minutes, seconds, mysteriousZero)]
-lights_on_time = "13:15"
-lights_off_time = "13:20"
+lights_on_time = "07:00"
+lights_off_time = "19:00"
 
 red_brightness = 72
 green_brightness = 60
