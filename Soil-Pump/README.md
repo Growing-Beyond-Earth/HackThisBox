@@ -10,3 +10,4 @@ I2C SDA - there's a 10K pullup to VIN
 
 I2C SCL - there's a 10K pullup to VIN
 
+![Pico](https://user-images.githubusercontent.com/1426877/134377016-ab970d6b-3738-4b69-ad7e-c381f620e1c7.png)
