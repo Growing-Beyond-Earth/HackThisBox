@@ -1,0 +1,17 @@
+ffmpeg -framerate 30 -pattern_type glob -i "folder-with-photos/*.JPG" -s:v 1440x1080 -c:v libx264 -crf 17 -pix_fmt yuv420p my-timelapse.mp4
+
+
+The final parameter is the filename of the output video. Here’s what the other parameters mean:
+framerate: the number of images to render per second in the video
+
+pattern_type: we set this to glob to tell ffmpeg to use all the images that match the pattern in the following parameter.
+
+i: a pattern that matches all the input photos in your timelapse. Note that this, as with most other things on a UNIX command line, is case sensitive.
+
+s:v: The size of the output video. Ensure that the aspect ratio matches your photos to avoid skewing the images (we’ll talk about cropping later).
+
+c:v: The output video codec (here, H264). 
+
+crf: A parameter specific to the H264 codec that determines the quality/compression. More on this later.
+
+pix_fmt: this needs to be set to yuv420p to allow many players, such as Quicktime to play the video
