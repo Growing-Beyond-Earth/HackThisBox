@@ -1,9 +1,9 @@
 # HackThis control-box
-Control circuits for LED lights and fan with code for Raspberry Pi Pico
+CSV Spreadsheet Creator for raw data from Raspberry Pi and Raspberry Pi Pico
 
-Fairchild Tropical Botanic Garden developed Growing Beyond Earth (GBE) to get students involved with NASA’s research on plants. As the program got started in 2015, Fairchild began distributing a kit of off-the-shelf parts for teachers and students to assemble into plant habitats like those aboard the International Space Station (ISS). Although that first kit worked well in classrooms and yielded useful data, it had several limitations. The LEDs were too bright and hot, the system lacked ventilation, and it was difficult to water the plants evenly. Over the years we addressed those limitations by ditching the off-the-shelf parts and developing new components from scratch. The GBE Control Box is our latest new component, now ready for testing in a limited number of classrooms. We created it to provide more consistent environmental control while giving students greater access to the underlying technology.
+Fairchild Tropical Botanic Garden developed Growing Beyond Earth (GBE) to get students involved with NASA’s research on plants. As the program got started in 2015, Fairchild began distributing a kit of off-the-shelf parts for teachers and students to assemble into plant habitats like those aboard the International Space Station (ISS). Over the years, the components evolded from off-the-shelf parts into the GBE Control Box, which was created to provide more consistent environmental control while giving students greater access to the underlying technology.
 
-Sitting atop the growth chamber, the GBE Control Box runs the LED lighting and fan. It works automatically with built-in programming that specifies the on/off timing of the lights, the brightness of each LED channel, and the fan speed. The system is easier to set up and operate than previous, manually controlled versions of the GBE kit — just plug it in and it works — but it can also be more powerful. Students can develop their own computer programs to control the system and run sophisticated experiments. 
+The Raspberry Pi Pico, which is the heart of the GBE Control Box, provides certain raw data to the Raspberry Pi Zero, such as the date, time, fan speed, light brightness, and more. This CSV Spreadsheet Creator program is designed to take that data, organize it, and make it presentable through the use of a spreadsheet.
 
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
