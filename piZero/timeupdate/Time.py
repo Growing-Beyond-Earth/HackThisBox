@@ -1,0 +1,31 @@
+import serial
+ser=serial.Serial('/dev/ttyACM0',115200)
+readedText = ser.readline() #readline gets entire line of data until the end of file
+txtArr = readedText.split()#splits string into array
+id=txtArr[0] #txtArr is the name of the array where the information is taken from.
+tm=txtArr[2] #The variable are numbered to organize each section to it's information.
+dt=txtArr[1]
+Rd=txtArr[3]
+Gr=txtArr[4]
+Bl=txtArr[5]
+Wt=txtArr[6]
+LDV=txtArr[7]
+mA=txtArr[8]
+W=txtArr[9]
+Fn=txtArr[10]
+RPM=txtArr[11]
+name='sofia' #example-add your name
+#print(txtArr)
+print ('id=',id) #print is used to display the information
+print ('time=',tm) #just attach the name of the variable and the variable of each of the section that we're numbered.
+print ('name=',name)
+print ('date=',dt)
+print ('Red=',Rd)
+print ('Green=',Gr)
+print ('Blue=',Bl)
+print ('White=',Wt)
+print ('LEDVoltage=',LDV)
+print ('mA=',mA)
+print ('RPM=',RPM)
+print ('Fan=',Fn)
+print ('W=',W)
