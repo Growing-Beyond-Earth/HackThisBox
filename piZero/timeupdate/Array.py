@@ -2,7 +2,7 @@ import serial
 ser=serial.Serial('/dev/ttyACM0',115200)
 readedText = ser.readline() #readline gets entire line of data until the end of file
 txtArr = readedText.split()#splits string into array
-id=txtArr[0] #txtArr is the name of the array where the information is taken from.
+ID=txtArr[0] #txtArr is the name of the array where the information is taken from.
 tm=txtArr[2] #The variable are numbered to organize each section to it's information.
 dt=txtArr[1] #Date
 Rd=txtArr[3] #Red
@@ -16,7 +16,7 @@ Fn=txtArr[10] #Fan
 RPM=txtArr[11] #RPM
 name='sofia' #example-add your name
 #print(txtArr)
-print ('id=',id) #print is used to display the information
+print ('id=',ID) #print is used to display the information
 print ('time=',tm) #just attach the name of the variable and the variable of each of the section that we're numbered.
 print ('name=',name)
 print ('date=',dt)
