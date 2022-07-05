@@ -7,7 +7,7 @@ Sitting atop the growth chamber, the GBE Control Box runs the LED lighting and f
 Bellow are folders with some accessories examples, including modules needed for the sensor. 
 
 
-
+Controlling the Control Box via Serial conection on a Pi Zero or Pi3
 
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
