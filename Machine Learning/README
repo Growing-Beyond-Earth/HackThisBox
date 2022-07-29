@@ -1,0 +1,16 @@
+YOLOv5 is an object detection algorithm created by Glenn Jocher in 2020. We used YOLOv5 to train our leaf detection model. After two attempts, we created
+a model that accurately detects where the leaves are approximately 90% of the time. The code for the YOLOv5 model was not our own; we altered Roboflow-
+provided code to fit our own dataset. Specific documentation for YOLOv5 is widely available online. For more details on how we specifically used our
+model, please watch our presentation, the link to which is attached below.
+
+
+Attached is a link to the Google Collab file we used to create our YOLOv5 leaf detection model:
+https://colab.research.google.com/drive/1Zt7LjiChV5hK37olS4wwlg2Gi_NqKmEW?usp=sharing
+
+Feel free to make a copy of this file to create edits, however this code must be altered to function outside of Google Collab, because parts of it are 
+specific to filepaths found on Eugene's computer.
+
+Link to full presentation video:
+(Link to presentation will be here once it's available)
+Link to Google Slides version:
+https://docs.google.com/presentation/d/1oFB55uXn11pBxKo-gljcdvP4QYzM9VacybnPKoX5Rpg/edit?usp=sharing
