@@ -1,0 +1,12 @@
+Roboflow Object Detection
+
+Roboflow is an online service that provides users with the software to create bounding boxes for object detection algorithms. In addition, Roboflow also
+provides an in-house training function, where they will train your model without the need of coding yourself. We have used Roboflow in order to create a
+dataset for our Leaf Detection model, and to train one of the first versions of the model itself. 
+
+Below is a link to the Roboflow database:
+https://universe.roboflow.com/ftbg-gbe-technology-team-jllp2/leaf-detection-vaggn
+
+Note: This is a link to the public version of the database. To get full access, you must be added as an administrator. Currently, all of the 2022 interns,
+as well as Dr. Lewis have been added. To be added, ask one of the current administrators for help -- all of the 2022 interns are more than happy to provide
+assistance with the software whenever someone may need it. 
